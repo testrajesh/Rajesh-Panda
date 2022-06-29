@@ -16,6 +16,8 @@
 		B61E7D8E286B4C38004B6841 /* MVVM_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E7D8D286B4C38004B6841 /* MVVM_PracticeTests.swift */; };
 		B61E7D98286B4C38004B6841 /* MVVM_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E7D97286B4C38004B6841 /* MVVM_PracticeUITests.swift */; };
 		B61E7D9A286B4C38004B6841 /* MVVM_PracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E7D99286B4C38004B6841 /* MVVM_PracticeUITestsLaunchTests.swift */; };
+		B61E7DA8286B4F85004B6841 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E7DA7286B4F85004B6841 /* Service.swift */; };
+		B61E7DAB286B4FF7004B6841 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61E7DAA286B4FF7004B6841 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B61E7D93286B4C38004B6841 /* MVVM PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM PracticeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B61E7D97286B4C38004B6841 /* MVVM_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_PracticeUITests.swift; sourceTree = "<group>"; };
 		B61E7D99286B4C38004B6841 /* MVVM_PracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_PracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B61E7DA7286B4F85004B6841 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		B61E7DAA286B4FF7004B6841 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		B61E7D75286B4C2D004B6841 /* MVVM Practice */ = {
 			isa = PBXGroup;
 			children = (
+				B61E7DA9286B4FC6004B6841 /* Model */,
+				B61E7DA6286B4F5E004B6841 /* Service */,
 				B61E7D76286B4C2D004B6841 /* AppDelegate.swift */,
 				B61E7D78286B4C2D004B6841 /* SceneDelegate.swift */,
 				B61E7D7A286B4C2E004B6841 /* ViewController.swift */,
@@ -125,6 +131,22 @@
 				B61E7D99286B4C38004B6841 /* MVVM_PracticeUITestsLaunchTests.swift */,
 			);
 			path = "MVVM PracticeUITests";
+			sourceTree = "<group>";
+		};
+		B61E7DA6286B4F5E004B6841 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B61E7DA7286B4F85004B6841 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B61E7DA9286B4FC6004B6841 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B61E7DAA286B4FF7004B6841 /* DataModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B61E7DAB286B4FF7004B6841 /* DataModel.swift in Sources */,
 				B61E7D7B286B4C2E004B6841 /* ViewController.swift in Sources */,
+				B61E7DA8286B4F85004B6841 /* Service.swift in Sources */,
 				B61E7D77286B4C2D004B6841 /* AppDelegate.swift in Sources */,
 				B61E7D79286B4C2D004B6841 /* SceneDelegate.swift in Sources */,
 			);

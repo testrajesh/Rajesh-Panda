@@ -8,10 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var dataModel: DataModel?
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        Service.sharedInstance.getAllData { data, error in
+            
+            if error == nil {
+                print(data!)
+            }else {
+                print(error!)
+            }
+        }
     }
 
 
